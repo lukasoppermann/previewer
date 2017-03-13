@@ -1,0 +1,28 @@
+{
+  "name": "Previewer",
+  "version": "0.0.1",
+  "description": "A preview app for designers.",
+  "main": "app.js",
+  "dependencies": {
+    "electron": "^1.5.0",
+    "material-toggle": "github:nuclei/material-toggle"
+  },
+  "devDependencies": {
+    "live-reload": "^1.1.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "reload": "live-reload app --port 35729",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasoppermann/quickview.git"
+  },
+  "author": "Lukas Oppermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasoppermann/quickview/issues"
+  },
+  "homepage": "https://github.com/lukasoppermann/quickview#readme"
+}
