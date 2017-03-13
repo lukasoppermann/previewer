@@ -10,6 +10,7 @@ const url = require('url')
 let win
 app.on('ready', function () {
     menu()
+
     win = require('./app/window').createWindow()
 
     win.setMySize = function(setWidth, setHeight){

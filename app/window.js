@@ -1,5 +1,6 @@
 const electron = require('electron')
 const BrowserWindow = electron.BrowserWindow
+const path = require('path')
 
 let options = {
   width: 800,
@@ -8,7 +9,8 @@ let options = {
   index: 'file://' + process.cwd() + '/app/quickview.html',
   resizable: false,
   alwaysOnTop: false,
-  titleBarStyle: 'hidden-inset'
+  titleBarStyle: 'hidden-inset',
+  icon: path.join(__dirname, 'assets/icons/png/256x256.png')
 }
 
 function createWindow () {

@@ -1,13 +1,15 @@
 {
   "name": "Previewer",
+  "productName": "Previewer",
   "version": "0.0.1",
   "description": "A preview app for designers.",
   "main": "app.js",
   "dependencies": {
-    "electron": "^1.5.0",
+    "electron": "^1.6.2",
     "material-toggle": "github:nuclei/material-toggle"
   },
   "devDependencies": {
+    "electron": "^1.6.2",
     "live-reload": "^1.1.0"
   },
   "scripts": {
