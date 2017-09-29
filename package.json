@@ -6,7 +6,8 @@
   "main": "app.js",
   "dependencies": {
     "electron": "^1.6.2",
-    "material-toggle": "github:nuclei/material-toggle"
+    "material-toggle": "github:nuclei/material-toggle",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "electron": "^1.6.2",
@@ -15,7 +16,9 @@
   "scripts": {
     "start": "electron .",
     "reload": "live-reload app --port 35729",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/lukasoppermann/quickview/issues"
   },
-  "homepage": "https://github.com/lukasoppermann/quickview#readme"
+  "homepage": "https://github.com/lukasoppermann/quickview#readme",
+  "snyk": true
 }
