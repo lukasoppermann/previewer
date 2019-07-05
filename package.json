@@ -7,7 +7,7 @@
   "dependencies": {
     "electron": "^1.6.2",
     "material-toggle": "github:nuclei/material-toggle",
-    "snyk": "^1.41.1"
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "electron": "^1.6.2",
